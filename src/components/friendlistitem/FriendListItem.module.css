@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 4px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.isActive {
+  color: green;
+}
+
+.notActive {
+  color: red;
+}
